@@ -17,6 +17,8 @@ export class PostService {
     return this.postRepository.save(post);
   }
 
+  search() {}
+
   findAll() {
     return this.postRepository.find();
   }
